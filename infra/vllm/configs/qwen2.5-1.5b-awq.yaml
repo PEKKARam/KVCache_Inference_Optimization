@@ -1,0 +1,8 @@
+model_name: Qwen/Qwen2.5-1.5B-Instruct
+port: 8000
+quantization: awq
+load_format: awq
+dtype: float16
+max_model_len: 4096
+gpu_memory_utilization: 0.90
+max_num_seqs: 64

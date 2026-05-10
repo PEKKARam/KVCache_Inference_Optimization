@@ -1,0 +1,9 @@
+name: vllm_fp16_baseline
+service_url: http://127.0.0.1:8000
+endpoint: /v1/completions
+model: Qwen/Qwen2.5-1.5B-Instruct
+prompts_file: experiments/prompts/sample.txt
+max_tokens: 128
+temperature: 0.0
+requests: 50
+output_csv: experiments/results/baseline.csv

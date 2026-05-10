@@ -1,0 +1,4 @@
+Explain KV cache in one paragraph.
+What is PagedAttention and why is it useful?
+Summarize continuous batching in two sentences.
+Compare latency and throughput for LLM inference.
