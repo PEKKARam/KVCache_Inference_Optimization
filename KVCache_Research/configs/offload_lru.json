@@ -1,0 +1,19 @@
+{
+  "model": {
+    "name_or_path": "gpt2",
+    "dtype": "float16",
+    "device": "cuda"
+  },
+  "benchmark": {
+    "prompts_file": "configs/prompts.txt",
+    "num_prompts": 8,
+    "max_new_tokens": 64,
+    "seed": 42,
+    "output_file": "outputs/offload_lru.json"
+  },
+  "cache": {
+    "policy": "lru_offload",
+    "max_gpu_bytes": 1500000000,
+    "reuse_cache": false
+  }
+}

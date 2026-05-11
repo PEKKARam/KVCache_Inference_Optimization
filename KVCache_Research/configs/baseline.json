@@ -1,0 +1,19 @@
+{
+  "model": {
+    "name_or_path": "gpt2",
+    "dtype": "float16",
+    "device": "cuda"
+  },
+  "benchmark": {
+    "prompts_file": "configs/prompts.txt",
+    "num_prompts": 8,
+    "max_new_tokens": 64,
+    "seed": 42,
+    "output_file": "outputs/baseline.json"
+  },
+  "cache": {
+    "policy": "none",
+    "max_gpu_bytes": 0,
+    "reuse_cache": false
+  }
+}
