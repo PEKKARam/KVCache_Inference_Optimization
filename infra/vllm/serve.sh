@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-MODEL_NAME=${MODEL_NAME:-"Qwen/Qwen2.5-1.5B-Instruct"}
+MODEL_NAME=${MODEL_NAME:-"Qwen/Qwen2.5-7B-Instruct"}
 PORT=${PORT:-8000}
 DTYPE=${DTYPE:-"float16"}
 MAX_MODEL_LEN=${MAX_MODEL_LEN:-4096}

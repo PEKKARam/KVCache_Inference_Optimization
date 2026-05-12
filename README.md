@@ -33,7 +33,7 @@ KVCache_Research 子项目：
 ## 快速开始（Ubuntu 24.04）
 1) 启动 vLLM 服务
    - cd infra/vllm
-   - MODEL_NAME="Qwen/Qwen2.5-1.5B-Instruct" ./serve.sh
+   - MODEL_NAME="Qwen/Qwen2.5-7B-Instruct" ./serve.sh
 
 2) 运行基准客户端
    - python src/runner.py --config experiments/configs/baseline.yaml

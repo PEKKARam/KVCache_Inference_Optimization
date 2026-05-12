@@ -1,0 +1,5 @@
+Explain the main idea of KV cache in transformer decoding.
+Write a short summary about PagedAttention.
+Give a brief explanation of continuous batching in LLM inference.
+List three reasons why token-by-token decoding benefits from KV cache.
+Summarize the differences between HuggingFace and vLLM inference stacks.
